@@ -1,0 +1,67 @@
+body, input {
+    font: 16px/24px 'Karla', sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    padding-top: 2rem;
+    background: rgb(248, 248, 248);
+  }
+  
+  h1 {
+    margin: .2rem 0;
+  }
+  
+  small {
+    opacity: .6;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+  }
+  .calcBox {
+    display: flex;
+    justify-content: space-between; /* Adds space between the divs */
+    gap: 20px; /* Adds gap between the divs */
+    padding: 10px;
+  }
+  
+  .calc1 {
+    width: 40%; /* Fixed width */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .calc2 {
+    flex: 1; /* Takes up the remaining space */
+    padding: 20px;
+    background-color: #e0e0e0;
+    border: 1px solid #bbb;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .table{
+    padding-top: 40px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    line-height: 48px;
+    font-size: 28px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: #fff;
+    -moz-appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
